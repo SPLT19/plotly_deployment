@@ -1,15 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Greek gods</title>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-</head>
-<body>
-    <div id="plot"></div>
-    <script src="data.js"></script>
-    <script src="plots.js"></script>
-</body>
-</html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Bellybutton Biodiversity</title>
+        <link 
+            rel="stylesheet" 
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+            />
+      </head>
+      
+      <body style="background-color:rgba(22, 22, 39, 0.911);">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 jumbotron text-center", style="background-image: url(https://letstalkscience.ca/educational-resources/backgrounders/introduction-bacteria);"; height: 400px>
+              <h1 style="color: white">Belly Button Biodiversity Dashboard</h1>
+              <p style="color:rgb(218, 199, 195)"><b>Explore the universe inside bellybutton with the charts</b></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2">
+              <div class="well", style="background-color: #140d0d;">
+                <h4 style="color: rgb(178, 239, 243);"><b>Instructions:</b> Explore the Belly Buttom Biodiversity Dashboard by selecting a test subject ID, and data and graphs will automatically be displayed:
+                </h4>
+                <h4 style="color: rgb(84, 166, 180);"><b>Subject ID :</b></h4>
+                <select id="selDataset" onchange="optionChanged(this.value)"></select>
+              </div>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Demographic Info</h3>
+                </div>
+                <div id="sample-metadata" class="panel-body"></div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div id="bar"></div>
+                <h5 style="color: rgb(89, 165, 102);" align='center'>**OTU (Operational Taxonomic Units). Stands for group of organism with similarities. 
+                </h5>
+                <h5 style="color:rgb(230, 175, 175);" align='center'>Graph 1.- Bar chart displaying Top 10 Bacteria Cultures fround in test subjects. </h5>
+            </div>
+            <div class="col-md-5">
+              <div id="gauge" align='center'></div>
+                <h5 style="color: rgb(223, 217, 167);" align='center'>Graph 2.- Gauge chart displaying belly button washing frequency per week.
+                </h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div id="bubble" align='center'></div>
+                <h5 style="color: rgb(81, 170, 230);" align='center'>Graph 3.- Bubble chart displaying Bacteria Culture Per Sample. Hover over to discover extra data.
+                </h5>
+            </div>
+          </div>
+        </div>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="static/js/charts.js"></script>
+      
+      </body>
+      
+      </html>
