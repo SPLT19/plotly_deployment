@@ -14,23 +14,23 @@ The following project visualization and testing can be done with the following [
 
 ### Website screenshot samples:
 
-Site consisted of an interactive dashboard able to adapt to different screen size. [sample1](), [sample2](), [sample3](), [Sample4](), [sample5]().  
+Site consisted of an interactive dashboard able to adapt to different screen size. [sample1](Resources/sample1.png), [sample2](Resources/sample2.png), [sample3](Resources/sample3.png), [Sample4](Resources/sample4.png), [sample5](Resources/sample5.png).  
 
 
 It includes: 
 
 - Instructions and demographic information.
-![fullsizeview]()
+![fullsizeview](Resources/sample1.png)
 
 - Charts included
 Bar Chart
-![BarChart]()
+![BarChart](Resources/Barchart.png)
 
 Gauge Chart
-![Gaugechart]()
+![Gaugechart](Resources/gaugechart.png)
 
 Bubble Chart
-![Bublechart]()
+![Bublechart](Resources/buublechart.png)
 =======
 
 
