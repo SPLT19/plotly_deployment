@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,20 +12,20 @@
             />
       </head>
       
-      <body style="background-color:rgba(22, 22, 39, 0.911);">
+      <body style="background-color:rgba(16, 10, 41, 0.911);">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-12 jumbotron text-center", style="background-image: url(https://letstalkscience.ca/educational-resources/backgrounders/introduction-bacteria);"; height: 400px>
-              <h1 style="color: white">Belly Button Biodiversity Dashboard</h1>
-              <p style="color:rgb(218, 199, 195)"><b>Explore the universe inside bellybutton with the charts</b></p>
+            <div class="col-md-12 jumbotron text-center", style="background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d0b70d6c-6525-4063-8658-6f12153b7ae7/dfaq0nd-d7e4374b-bea2-4613-a6a9-b0c5f554ede4.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2QwYjcwZDZjLTY1MjUtNDA2My04NjU4LTZmMTIxNTNiN2FlN1wvZGZhcTBuZC1kN2U0Mzc0Yi1iZWEyLTQ2MTMtYTZhOS1iMGM1ZjU1NGVkZTQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.JT4ZHSh5KPofzRlppVVqpLRvJOML4dO81p9yA-zXNOE);"; height: 400px>
+              <h1 style="color: rgb(255, 255, 255)">Belly Button Biodiversity</h1>
+              <p style="color:rgb(211, 227, 240)"><b>Explore the universe inside bellybutton with this Dashboard</b></p>
             </div>
           </div>
           <div class="row">
             <div class="col-md-2">
-              <div class="well", style="background-color: #140d0d;">
-                <h4 style="color: rgb(178, 239, 243);"><b>Instructions:</b> Explore the Belly Buttom Biodiversity Dashboard by selecting a test subject ID, and data and graphs will automatically be displayed:
+              <div class="well", style="background-color: #130e0e;">
+                <h4 style="color: rgb(157, 230, 243);"><b>Instructions:</b> Select test subject ID to explore results. See data automatically displayed on graphs:
                 </h4>
-                <h4 style="color: rgb(84, 166, 180);"><b>Subject ID :</b></h4>
+                <h4 style="color: rgba(7, 214, 250, 0.877);"><b>Subject ID :</b></h4>
                 <select id="selDataset" onchange="optionChanged(this.value)"></select>
               </div>
               <div class="panel panel-primary">
@@ -36,20 +37,20 @@
             </div>
             <div class="col-md-5">
               <div id="bar"></div>
-                <h5 style="color: rgb(89, 165, 102);" align='center'>**OTU (Operational Taxonomic Units). Stands for group of organism with similarities. 
+                <h5 style="color: rgb(89, 124, 165);" align='center'>**OTU (Operational Taxonomic Units). Stands for group of organism with similarities. 
                 </h5>
-                <h5 style="color:rgb(230, 175, 175);" align='center'>Graph 1.- Bar chart displaying Top 10 Bacteria Cultures fround in test subjects. </h5>
+                <h5 style="color:rgb(184, 143, 97);" align='center'>Graph 1.- Bar chart displaying Top 10 Bacteria Cultures fround in test subjects. </h5>
             </div>
             <div class="col-md-5">
               <div id="gauge" align='center'></div>
-                <h5 style="color: rgb(223, 217, 167);" align='center'>Graph 2.- Gauge chart displaying belly button washing frequency per week.
+                <h5 style="color: rgb(216, 170, 102);" align='center'>Graph 2.- Gauge chart displaying belly button washing frequency per week.
                 </h5>
             </div>
           </div>
           <div class="row">
             <div class="col-md-12">
               <div id="bubble" align='center'></div>
-                <h5 style="color: rgb(81, 170, 230);" align='center'>Graph 3.- Bubble chart displaying Bacteria Culture Per Sample. Hover over to discover extra data.
+                <h5 style="color: rgb(89, 124, 165);" align='center'>Graph 3.- Bubble chart displaying Bacteria Culture Per Sample. Hover over to discover extra data.
                 </h5>
             </div>
           </div>

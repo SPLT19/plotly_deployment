@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+# Bellybutton Biodiversity Analysis
 
-You can use the [editor on GitHub](https://github.com/SPLT19/plotly_deployment/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Overview
+The following project consisted on the creation of an interactive dashboard displaying data in different types of charts.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Resources and languages
 
-### Markdown
+Tools included JavaScript, HTML, Plotly, Bootstrap and Visual Studio Code
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## Website:
+The following project visualization and testing can be done with the following [link]()
 
-# Header 1
-## Header 2
-### Header 3
+### Website screenshot samples:
 
-- Bulleted
-- List
+Site consisted of an interactive dashboard able to adapt to different screen size. [sample1](), [sample2](), [sample3](), [Sample4](), [sample5]().  
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+It includes: 
 
-[Link](url) and ![Image](src)
-```
+- Instructions and demographic information.
+![fullsizeview]()
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+- Charts included
+Bar Chart
+![BarChart]()
 
-### Jekyll Themes
+Gauge Chart
+![Gaugechart]()
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SPLT19/plotly_deployment/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Bubble Chart
+![Bublechart]()
