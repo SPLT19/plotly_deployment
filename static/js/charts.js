@@ -98,11 +98,14 @@ function init() {
           color: ['mediumslateblue', 'mediumslateblue', 'royalblue', 'royalblue', 'cornflowerblue', 'cornflowerblue', 'skyblue', 'skyblue', 'cyan', 'cyan']
         },
         type: "bar", orientation: "h"}
+        
       ];
       
       // 9. Create  layout for the bar chart. 
       var barLayout = {
        title: "<b>Top 10 Bacteria Cultures Found</b>",
+       paper_bgcolor: 'rgba(245,246,249,1)',
+       plot_bgcolor: 'rgba(245,246,249,1)',
        margin: {
         l: 100,
         r: 100,
@@ -137,6 +140,8 @@ function init() {
       // 2. layout for the bubble chart.
       var bubbleLayout = {
             title: "<b>Bacteria Cultures Per Sample</b>",
+            paper_bgcolor: 'rgba(245,246,249,1)',
+            plot_bgcolor: 'rgba(245,246,249,1)',
             xaxis: {
               title: {
                 text: "OTU ID"}},
@@ -175,6 +180,8 @@ function init() {
       }];
       // 5. Create the layout for the gauge chart.
       var gaugeLayout = { 
+       paper_bgcolor: 'rgba(245,246,249,1)',
+       plot_bgcolor: 'rgba(245,246,249,1)',
        width: 600,
        height: 450
       };
